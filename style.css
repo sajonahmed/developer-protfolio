@@ -27,6 +27,11 @@ section{
     border-radius: 5px;
 }
 .top-banner{
-    background-image:url(top-banner.png);
-   
+    background-image:url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
