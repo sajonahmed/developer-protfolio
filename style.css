@@ -7,8 +7,9 @@ h1{
 .rgb-color{
     color:orange;
 }
-section{
+.flexible-container{
     display:flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -30,8 +31,39 @@ section{
     background-image:url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+.experience-aria{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
+.nahid{
+    border-image-width: 50%;
+    width:80% ;
+}
 .dream-big{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+.orange-color{
+    color:orange;
+}
+.experience-item{
+    width:40%;
+    margin-right:5%;
+    margin-left:5%;
+    border-radius: 10px;
+    padding-left:20px;
+    box-shadow: 10px 10px 50px gray;
+    border-left:7px solid blue;
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+footer p{
+    text-align:center;
+}
+
+
+
